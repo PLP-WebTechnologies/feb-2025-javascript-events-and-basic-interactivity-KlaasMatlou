@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <h1>JAVASCRIPT PLAYGROUND! 🛠️</h1>
+
+  <!-- Event Handling Section -->
+  <section>
+    <h2>Event Handling</h2>
+    <button id="clickBtn">Click Me</button>
+    <div id="hoverBox">Hover over me!</div>
+    <input type="text" id="keypressInput" placeholder="Type something and open Inspect..." />
+  </section>
+
+  <!-- Interactive Elements -->
+  <section>
+    <h2>Interactive Elements</h2>
+    <button id="changeTextBtn">Change text/Double press</button>
+    <div class="slideshow">
+      <h2>Image slides</h2>
+      <button id="nextSlide">Next</button>
+    </div>
+    <div class="tabs">
+      <button class="tabBtn" data-tab="1">Tab 1</button>
+      <button class="tabBtn" data-tab="2">Tab 2</button>
+      <div id="tabContent">Content for Tab 1</div>
+    </div>
+  </section>
+
+
+  <!-- Form Validation -->
+<section>
+  <h2>Form Validation</h2>
+  <form id="myForm">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <span id="nameFeedback" class="feedback-message"></span>
+
+    <input type="email" id="email" placeholder="Email" required />
+    <span id="emailFeedback" class="feedback-message"></span>
+
+    <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+    <span id="passwordFeedback" class="feedback-message"></span>
+
+    <button type="submit">Submit</button>
+    <p id="formFeedback"></p>
+  </form>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
